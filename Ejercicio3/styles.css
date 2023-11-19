@@ -1,0 +1,81 @@
+/*button{
+	width: 200px;
+	height: 200px;
+	padding: 0px;
+	border: 0px;
+	margin: 0px;
+	margin-bottom: 1px;
+	margin-top: 2px;
+	margin-left: 3px;
+	margin-right: 4px;
+}*/
+
+/*.btn1{
+	display: block;
+	margin.right: 40px;
+	margin-bottom: 40px;
+}
+
+.btn2{
+	display: block;
+	margin-left: 50;
+	margin-top: 50px;
+}*/
+
+.caja{
+	/*position: absolute;*/
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	border: 2px black solid;
+}
+
+.caja1{
+	/*bottom: 200px;
+	left: 50%;*/
+	background-color: orange;
+	align-self: flex-start;
+}
+
+.caja2{
+	/*left: 200px;*/
+	background-color: green;
+	align-self: center;
+}
+
+.caja3{
+	background-color: yellow;
+	align-self: flex-end;
+}
+
+.caja4{
+	background-color: blue;
+	align-self: firstbaseline;
+}
+
+.caja5{
+	background-color: red;
+	align-self: flex-start;
+}
+
+.contenedor{
+	width: 800px;
+	height: 600px;
+	display: flex;
+	border: 2px red dotted;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center; /*center centrado*/
+	align-items: center;
+}
+
+/*@media (min-width: 600px) and (max-width: 800px){	/*Es como un tipo de if 	y "and" o "," 
+	.caja{
+		background-color: deeppink;
+	}
+
+	.caja1{
+		top: 300px;
+	}
+}
+/*
