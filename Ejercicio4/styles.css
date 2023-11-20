@@ -1,64 +1,49 @@
 .caja {
-  display: inline-block;
-  width: 100px; 
-  height: 100px; 
-  border: 2px black solid;
+    position: absolute;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
 }
 
 .caja1 {
-  background-color: green;
-  align-self: flex-start;
+    background-color: red;
 }
 
 .caja2 {
-  background-color: purple;
+    left: 30%;
+    background-color: blue;
 }
 
 .caja3 {
-  background-color: blue;
-  align-self: flex-end;
+    top: 210px;
+    background-color: rgb(0, 255, 13);
 }
 
 .caja4 {
-  background-color: mediumblue;
+    top: 410px;
+    left: 30%;
+    background-color: rgb(0, 225, 255);
 }
 
 .caja5 {
-  background-color: orange;
-  align-self: flex-start;
+    top: 410px;
+    left: 15.5%;
+    background-color: rgb(255, 94, 0);
 }
 
 .caja6 {
-  background-color: yellow;
+    top: 410px;
+    background-color: rgb(255, 0, 140);
 }
 
 .caja7 {
-  background-color: mediumpurple;
-  align-self: flex-end;
+    top: 210px;
+    left: 30%;
+    background-color: rgb(47, 90, 41);
 }
 
 .caja8 {
-  background-color: red;
-}
-
-.contenedor {
-  width: 600px;
-  height: 600px;
-  display: flex;
-  flex-direction: column; 
-  border: 2px red dotted;
-  justify-content: space-between; 
-  align-items: center;
-}
-
-.centro-superior {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-}
-
-.centro-inferior {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
+    top: 10px;
+    left: 15.5%;
+    background-color: rgb(77, 53, 40);
 }
